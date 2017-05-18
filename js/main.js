@@ -1,9 +1,11 @@
-//$(document).ready(function(){
-//    $("#btn1").click(function(){
-//    $("td").append("<li>Add New Item</li>");
-//    });
-//});
-//
+var people []
+
+$(document).ready(function(){
+  $("#newPerson").click(function(){
+  $("td").append("<li>Add New Person</li>");
+  });
+});
+
 function myFunction() {
    var x = document.getElementById("fname").form.id;
               document.getElementById("lname")
